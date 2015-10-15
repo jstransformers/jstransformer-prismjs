@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "jstransformer-escape-html": "^0.1.0",
-    "prismjs": "0.0.1"
+    "jstransformer-escape-html": "^1.0.0",
+    "prismjs": "1.2.0"
   },
   "name": "jstransformer-prismjs",
   "version": "0.0.1",
