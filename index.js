@@ -4,7 +4,7 @@ var extend = require('extend-shallow');
 var escape = require('jstransformer-escape-html').render;
 
 exports.name = 'prismjs';
-exports.inputFormats = ['prismjs', 'prism', 'highlight'];
+exports.inputFormats = ['code', 'prismjs', 'prism', 'highlight'];
 exports.outputFormat = 'html';
 
 exports.render = function (str, options, locals) {
