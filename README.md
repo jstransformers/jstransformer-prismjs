@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var prism = require('jstransformer')(require('jstransformer-prismjs'));
+var prism = require('jstransformer')(require('jstransformer-prismjs'))
 
 prism.render('p { color: red }', { language: 'css' }).body
 //=> '<pre><code class="language-css">p { color: red }</code></pre>'
