@@ -12,5 +12,6 @@ exports.render = function (str, options, locals) {
   const language = opts.language || 'none'
   const prefix = '<pre><code class="language-' + language + '">'
   const suffix = '</code></pre>'
+
   return prefix + escape(str) + suffix
 }
